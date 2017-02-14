@@ -15,7 +15,7 @@ if(karel.canPickThing())
 } else {                                                   
     karel.turnLeft();                                
 }  
-
+ANSWER:
 
 Statement 2
 if(!karel.canPickThing())
