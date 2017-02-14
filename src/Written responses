@@ -1,12 +1,12 @@
-1(a) this.getAvenue() > 0               ANSWER: true
- (b) this.getAvenue() <= 5              ANSWER: true
- (c) this.getStreet() != 1              ANSWER: false                          
- (d) !(this.getStreet() == 1)           ANSWER: false
- (e) this.frontIsClear()                ANSWER: false
- (f) !this.frontIsClear()               ANSWER: true
- (g) this.frontIsClear() == false       ANSWER: true
+1. (a) this.getAvenue() > 0               ANSWER: true
+   (b) this.getAvenue() <= 5              ANSWER: true
+   (c) this.getStreet() != 1              ANSWER: false                          
+   (d) !(this.getStreet() == 1)           ANSWER: false
+   (e) this.frontIsClear()                ANSWER: false
+   (f) !this.frontIsClear()               ANSWER: true
+   (g) this.frontIsClear() == false       ANSWER: true
 
-2
+2.
 
 Statement 1
 if(karel.canPickThing())                                    
