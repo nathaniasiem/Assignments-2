@@ -24,3 +24,7 @@ if(!karel.canPickThing())
 } else {                                                                                                                          
     karel.turnRight();
 }   
+ANSWER:In both statements, the behaviour will be the same because in statement 1,
+karel is asked if he can pick up thing, he will turn right or else if he can't 
+then he will turn left, whereas in statement 2, karel is asked if he can not 
+pick up thing, he will turn left or else if can then he will turn right. 
