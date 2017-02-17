@@ -38,15 +38,48 @@ public class A2Q1 {
         //initial move forward
         karel.move();
         //loop
-        while (true) {
-            //if there are things
-            //      pick them all up
-            while (karel.canPickThing()) {
-                karel.pickThing();
 
-            //stop picking up
-                    break;
+        // if there are things
+        //      pick them all up
+        while (karel.canPickThing()) {
+            karel.pickThing();
+            // if holding 1 thing, move
+            if (karel.countThingsInBackpack() == 1) {
+                // move
+                karel.move();
+                // if holding 2 things, move forward
+            }
+            if (karel.countThingsInBackpack() == 2) {
+                // move
+                karel.move();
+                // if holding 3 things, move forward 
+            }
+            if (karel.countThingsInBackpack() == 3) {
+                // move
+                karel.move();
+                // if holding 4 things, move forward
+            }
+            if (karel.countThingsInBackpack() == 4) {
+                //move
+                karel.move();
+                //if holding 5 things, move forward
+            }
+            if (karel.countThingsInBackpack() == 5) {
+                //move
+                karel.move();
+                //if holding 6 things, move forward
+            }
+            if (karel.countThingsInBackpack() == 6) {
+                //move
+                karel.move();
+                break;
+            }
 
-        }
+
+        }      
+        //karel move forward 3 times
+            karel.move();
+            karel.move();
+            karel.move();
     }
-}}
+}
