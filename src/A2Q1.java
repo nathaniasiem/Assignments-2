@@ -37,8 +37,8 @@ public class A2Q1 {
 
         //initial move forward
         karel.move();
-        //loop
 
+        //loop
         // if there are things
         //      pick them all up
         while (karel.canPickThing()) {
@@ -76,10 +76,10 @@ public class A2Q1 {
             }
 
 
-        }      
-        //karel move forward 3 times
-            karel.move();
-            karel.move();
-            karel.move();
+        }
+        //karel move forward until end of path
+        karel.move();
+        karel.move();
+        karel.move();
     }
 }
