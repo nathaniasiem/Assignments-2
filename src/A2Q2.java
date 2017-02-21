@@ -44,5 +44,7 @@ public class A2Q2 {
         //create finish line
         new Thing(kw,2,11);
         
+        while();
+        
     }
 }
