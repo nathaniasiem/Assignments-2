@@ -59,6 +59,9 @@ public class A2Q2 {
                     karel.turnLeft();
                     karel.turnLeft();
                 }
+                if(karel.canPickThing()){
+                    break;
+                }
             }
         } 
     }
