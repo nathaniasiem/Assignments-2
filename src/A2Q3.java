@@ -21,35 +21,27 @@ public class A2Q3 {
         City kw = new City();
 
         //create new robot in city
-        Robot karel = new Robot(kw, 2,2, Direction.EAST);
-        
-            //create loop(karel continues to move since Street is greater than 0)
+        Robot karel = new Robot(kw, 2, 2, Direction.EAST);
+
+        //create loop(karel continues to move since Street is greater than 0)
+        while (!(karel.getDirection() == Direction.NORTH)) {
+            karel.turnLeft();
+        }
+
+
         while (karel.getStreet() >= 0) {
-            if(!(karel.getDirection()== Direction.NORTH)){
+            if (karel.getStreet() == 0) {
                 karel.turnLeft();
-            }
-            karel.move();
-        //if karel's street location is less than equal to zero, he will stop)  
-            if (karel.getStreet() <= 0) {
                 break;
             }
-
-
-        }
-        //create loop(karel continues to move since Avenue is greater than 0)
-        while (karel.getAvenue() >= 0) {
-            if(!(karel.getDirection()== Direction.WEST)){
-                karel.turnLeft();
-                karel.turnLeft();
-                karel.turnLeft();
-            }
             karel.move();
-        //if karel's ave location is less than equal to 0, he will stop    
-            if (karel.getAvenue() <= 0) {
-                break;
 
-            }
         }
-    
+        while (karel.getAvenue() > 0) {
+            karel.move();
+
+        }
+
+
     }
 }
