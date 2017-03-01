@@ -62,14 +62,25 @@ public class A2Q4 {
             karel.turnLeft();
             karel.move();
             karel.turnLeft();
+            karel.move();
+            karel.turnLeft();
             karel.turnLeft();
             karel.turnLeft();
             karel.move();
             karel.move();
+            karel.turnLeft();
+            karel.turnLeft();
+            karel.turnLeft();
+            
+      }  
+        
+            
+            
+            
 
 
 
-        }
+        
 
 
 
