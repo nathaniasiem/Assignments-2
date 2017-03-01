@@ -71,16 +71,16 @@ public class A2Q4 {
             karel.turnLeft();
             karel.turnLeft();
             karel.turnLeft();
-            
-      }  
-        
-            
-            
-            
+
+        }
 
 
 
-        
+
+
+
+
+
 
 
 
