@@ -74,8 +74,6 @@ public class A2Q1 {
                 karel.move();
                 break;
             }
-
-
         }
         //karel move forward until end of path
         karel.move();
