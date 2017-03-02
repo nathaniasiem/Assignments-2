@@ -51,6 +51,7 @@ public class A2Q4 {
         new Wall(kw, 4, 4, Direction.SOUTH);
 
         //create loop
+        //guard moves around King Java's castle 
         while (true) {
 
             karel.move();
@@ -73,16 +74,5 @@ public class A2Q4 {
             karel.turnLeft();
 
         }
-
-
-
-
-
-
-
-
-
-
-
     }
 }
